@@ -1,9 +1,0 @@
-build
-buildMain
-dist
-node_modules
-dotnet/bin
-dotnet/obj
-dotnet-osx
-dotnet-ubuntu
-dotnet-win
