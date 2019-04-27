@@ -46,9 +46,6 @@ class App extends Component<IOwnProps> {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo"/>
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
           <p>Input something like <code>1 + 1</code>.</p>
           <p>
             This calculator supports <code>+-*/^()</code>,

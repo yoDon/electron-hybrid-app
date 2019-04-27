@@ -22,17 +22,8 @@ const preloadScript = ((window as any).isInElectronRenderer === false)
                     ? `file://${(window as any).nodeRequire("electron").remote.app.getAppPath() + "/public/preload.js"}`
                     : `file://${(window as any).nodeRequire("electron").remote.app.getAppPath() + "/public/preload.js"}`;
 
-//
-// Note: you can set the WebView src attribute to ./index.html to just load the local bundled
-//       src/site into the app as a WebView (handy for testing if stuff works) or to
-//       "https://yodon.github.io/electron-react-typescript-mobx/sample"
-//       to pull in a built version of the sample site in this example code
-//       (but that page might not be entirely up to date with the main repo
-//       since we don"t currently have any automated build hooks to make sure
-//       they are in sync)
-//
-// const electronWebViewSrc = "./index.html";
-const electronWebViewSrc = "https://yodon.github.io/electron-react-typescript-mobx/sample";
+// const electronWebViewSrc = "http://localhost:3001/";
+const electronWebViewSrc = "https://yodon.github.io/electron-hybrid-app/";
 
 const ipcRenderer = (window as any).isInElectronRenderer
     ? (window as any).nodeRequire("electron").ipcRenderer
@@ -84,27 +75,20 @@ class App extends Component<IOwnProps> {
 
   public render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <webview
-            src={electronWebViewSrc}
-            preload={preloadScript}
-          />
-          <img src={logo} className="App-logo" alt="logo"/>
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <p>Input something like <code>1 + 1</code>.</p>
-          <p>
-            This calculator supports <code>+-*/^()</code>,
-            whitespaces, and integers and floating numbers.
-          </p>
-          <input
-            style={{ color:"black" }}
-            onKeyDown={this.handleKeyDown}
-          />
-          <div ref={(elem) => this.resultDiv = elem}/>
-        </header>
+      <div>
+        <webview
+          src={electronWebViewSrc}
+          preload={preloadScript}
+          style={{ height:"500px" }}
+        />
+        <p>
+          You can also access the resources locally below
+        </p>
+        <input
+          style={{ color:"black" }}
+          onKeyDown={this.handleKeyDown}
+        />
+        <div ref={(elem) => this.resultDiv = elem}/>
       </div>
     );
   }
