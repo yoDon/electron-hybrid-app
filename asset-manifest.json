@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ab95c2a.chunk.css",
-    "main.js": "/static/js/main.dde79122.chunk.js",
-    "main.js.map": "/static/js/main.dde79122.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.286f5dea.chunk.js": "/static/js/2.286f5dea.chunk.js",
-    "static/js/2.286f5dea.chunk.js.map": "/static/js/2.286f5dea.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ae1a23d20223cfa185a6865fd111d2b2.js": "/precache-manifest.ae1a23d20223cfa185a6865fd111d2b2.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.2ab95c2a.chunk.css.map": "/static/css/main.2ab95c2a.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/electron-hybrid-app/static/css/main.2ab95c2a.chunk.css",
+    "main.js": "/electron-hybrid-app/static/js/main.c5d7171a.chunk.js",
+    "main.js.map": "/electron-hybrid-app/static/js/main.c5d7171a.chunk.js.map",
+    "runtime~main.js": "/electron-hybrid-app/static/js/runtime~main.7a0917f5.js",
+    "runtime~main.js.map": "/electron-hybrid-app/static/js/runtime~main.7a0917f5.js.map",
+    "static/js/2.286f5dea.chunk.js": "/electron-hybrid-app/static/js/2.286f5dea.chunk.js",
+    "static/js/2.286f5dea.chunk.js.map": "/electron-hybrid-app/static/js/2.286f5dea.chunk.js.map",
+    "index.html": "/electron-hybrid-app/index.html",
+    "precache-manifest.a9031811b9d851be30864b52385009c9.js": "/electron-hybrid-app/precache-manifest.a9031811b9d851be30864b52385009c9.js",
+    "service-worker.js": "/electron-hybrid-app/service-worker.js",
+    "static/css/main.2ab95c2a.chunk.css.map": "/electron-hybrid-app/static/css/main.2ab95c2a.chunk.css.map",
+    "static/media/logo.svg": "/electron-hybrid-app/static/media/logo.ee7cd8ed.svg"
   }
 }
