@@ -20,13 +20,14 @@
         "typescript": "3.4.5"
     },
     "devDependencies": {
+        "cross-env": "^5.2.0",
         "tslint": "^5.9.1",
         "tslint-config-standard": "^7.0.0",
         "tslint-loader": "^3.5.3",
         "tslint-react": "^3.4.0"
     },
     "scripts": {
-        "start": "react-scripts start",
+        "start": "cross-env PORT=3001 react-scripts start",
         "build": "react-scripts build",
         "eject": "react-scripts eject",
         "lint": "tslint -c tslint.json -p tsconfig.json"

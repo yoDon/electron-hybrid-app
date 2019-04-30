@@ -1,5 +1,5 @@
 {
-    "name": "electron-graphql",
+    "name": "electron-app",
     "version": "0.1.0",
     "private": true,
     "homepage": "./",
@@ -67,8 +67,8 @@
         "not op_mini all"
     ],
     "build": {
-        "appId": "com.example.electron-graphql",
-        "productName": "My Electron GraphQL App",
+        "appId": "com.example.electron-app",
+        "productName": "My Electron App",
         "forceCodeSigning": false,
         "directories": {
             "buildResources": "build",

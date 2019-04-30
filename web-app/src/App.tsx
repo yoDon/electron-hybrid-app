@@ -19,6 +19,7 @@ const App = () => {
     const appGlobalClient = useMemo(() => {
         if (apiPort === 0) {
             if (ipcRenderer) {
+                // eslint-disable-next-line
                 ipcRenderer.on("m2w-apiDetails", ({}, argString:string) => {
                     const arg:{ port:number, signingKey:string } = JSON.parse(argString);
                     setApiPort(arg.port); // setting apiPort causes useMemo'd appGlobalClient to be re-evaluated
