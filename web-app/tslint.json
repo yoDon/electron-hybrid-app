@@ -6,6 +6,7 @@
     ],
     "rules": {
         "no-console": false,
+        "no-empty": [true, "allow-empty-functions"],
         "indent": [true, "spaces"],
         "max-line-length": false,
         "space-before-function-paren": false,
