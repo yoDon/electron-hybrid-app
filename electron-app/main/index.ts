@@ -22,7 +22,7 @@ function createWindow() {
     const win = new BrowserWindow();
     win.webContents.openDevTools();
     if (isDev) {
-        win.loadURL("http://localhost:3001/index.html");
+        win.loadURL("http://localhost:3000/index.html");
     } else {
         win.loadURL(`file://${path.join(__dirname, "/../build/index.html")}`);
     }

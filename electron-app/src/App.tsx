@@ -20,7 +20,7 @@ const preloadScript = ((window as any).isInElectronRenderer === false)
                                         ? `file://${(window as any).nodeRequire("electron").remote.app.getAppPath() + "/public/preload.js"}`
                                         : `file://${(window as any).nodeRequire("electron").remote.app.getAppPath() + "/public/preload.js"}`;
 
-// const electronWebViewSrc = "http://localhost:3000/";
+// const electronWebViewSrc = "http://localhost:3001/";
 const electronWebViewSrc = "https://yodon.github.io/electron-hybrid-app/";
 
 const ipcRenderer = (window as any).isInElectronRenderer

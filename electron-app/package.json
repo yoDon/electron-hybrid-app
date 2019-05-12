@@ -10,7 +10,7 @@
         "watch": "concurrently \"npm run main-watch\" \"npm run react-watch\"",
         "build": "npm run react-build && npm run main-build",
         "main-lint": "tslint -c tslint.json -p tsconfig.electronMain.json",
-        "main-start": "tsc -p tsconfig.electronMain.json && wait-on http://localhost:3001/ && cross-env PORT=3001 NODE_ENV=development electron .",
+        "main-start": "tsc -p tsconfig.electronMain.json && wait-on http://localhost:3000/ && cross-env NODE_ENV=development electron .",
         "main-watch": "tsc -w -p tsconfig.electronMain.json",
         "main-build": "tsc -p tsconfig.electronMain.json && electron-builder",
         "react-lint": "tslint -c tslint.json -p tsconfig.json",
