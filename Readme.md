@@ -52,10 +52,12 @@ npm install
 # companion react web app project)
 #
 # IMPORTANT you will need to modify electron-app/src/App.tsx to load
-# http://localhost:3001/ instead of https://yodon.github.io/electron-hybrid-app/
-# (this web-app sample defaults to hosting on port 3001 to avoid conflict
-# with other npm projects like electron-app that might be running on port 3000
-# you can change the port it runs on by editing web-app/project.json)
+# http://localhost:3000/ or similar instead of
+# https://yodon.github.io/electron-hybrid-app/
+# (this sample defaults to hosting the development electron
+# simulator on port 3001 to avoid conflict with other node
+# projects like a server of yours that might default to running
+# on port 3000)
 #
 npm run start
 
