@@ -16,10 +16,12 @@
         "isomorphic-fetch": "^2.2.1",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
-        "react-scripts": "^3.0.0",
+        "react-scripts": "3.0.1",
         "typescript": "3.4.5"
     },
     "devDependencies": {
+        "@storybook/addon-knobs": "^5.0.11",
+        "@storybook/addon-storysource": "^5.0.11",
         "@storybook/react": "^5.0.11",
         "@types/storybook__react": "^4.0.1",
         "awesome-typescript-loader": "^5.2.1",
